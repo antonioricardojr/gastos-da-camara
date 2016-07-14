@@ -20,9 +20,9 @@ Passo a passo semi automatizado para ir dos xml a csvs:
 
 1. Descompacte
 
-1. use  para converter de xml para json. Com esse modulo instalado, por exemplo `xml2json --input AnoAtual.xml --output AnoAtual.json`
+1. Converter de xml para json com xml2json. Por exemplo `xml2json --input AnoAtual.xml --output AnoAtual.json`
 
-1. use json2csv.R para transformar do json para um csv: por exemplo `./json2csv.R AnoAtual.json` ou `./json2csv.R AnoAtual.json AnoAnterior.json`
+1. Use json2csv.R para transformar um ou mais arquivos json para um csv: por exemplo `./json2csv.R AnoAtual.json` ou `./json2csv.R AnoAtual.json AnoAnterior.json`
 
 O resultado estará em `resultado.csv`
 
